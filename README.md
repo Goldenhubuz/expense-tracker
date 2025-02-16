@@ -97,6 +97,90 @@ Expense deleted successfully
 
 ---
 
+### 4️⃣ Update Expense Status
+
+#### 📍 Mark an Expense as "In Progress"
+```bash
+expense-tracker mark-in-progress 1
+```
+
+✅ **Result**:
+```bash
+Expense ID 1 marked as in-progress.
+```
+
+#### 📍 Mark an Expense as "Done"
+```bash
+expense-tracker mark-done 1
+```
+
+✅ **Result**:
+```bash
+Expense ID 1 marked as done.
+```
+
+---
+
+### 5️⃣ View Monthly Summary
+
+To view total expenses for all months:
+```bash
+expense-tracker summary
+```
+
+📊 **Result**:
+```bash
+Total expenses: $20
+```
+
+To view expenses for a specific month:
+```bash
+expense-tracker summary --month 8
+```
+
+📊 **Result**:
+```bash
+Total expenses for August: $20
+```
+
+---
+
+## 📂 Expense File
+
+All expenses are stored in the `expenses.json` file in the project directory.
+
+📑 **Expense Structure**:
+- `id`: Unique identifier for the expense.
+- `date`: Timestamp when the expense was added.
+- `description`: Brief description of the expense.
+- `amount`: The amount spent on the expense.
+
+---
+
+## 📌 Diagram
+
+![Expense Tracker Diagram](./ExpenseTracker.svg)
+
+---
+
+## 💡 Idea Source
+
+This project was inspired by the [Expense Tracker project](https://roadmap.sh/projects/expense-tracker) from roadmap.sh. Visit the link to explore more project ideas.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+1. **Fork the repository.**
+2. **Create a new branch**: `git checkout -b feature-branch`
+3. **Commit your changes**: `git commit -m "Added new feature"`
+4. **Push to the branch**: `git push origin feature-branch`
+5. **Open a pull request** 🎉
+
+---
+
 ## 📜 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
