@@ -96,31 +96,6 @@ Expense deleted successfully
 ```
 
 ---
-
-### 4️⃣ Update Expense Status
-
-#### 📍 Mark an Expense as "In Progress"
-```bash
-expense-tracker mark-in-progress 1
-```
-
-✅ **Result**:
-```bash
-Expense ID 1 marked as in-progress.
-```
-
-#### 📍 Mark an Expense as "Done"
-```bash
-expense-tracker mark-done 1
-```
-
-✅ **Result**:
-```bash
-Expense ID 1 marked as done.
-```
-
----
-
 ### 5️⃣ View Monthly Summary
 
 To view total expenses for all months:
